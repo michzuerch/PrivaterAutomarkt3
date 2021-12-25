@@ -62,3 +62,4 @@ To start directus run `npx directus start` in /directus. [Local Directus](http:/
 ## Todos
 
 - Check /static/manifest.json on internet for docs.
+- Integrate <https://rodneylab.com/sveltekit-seo> and <https://github.com/rodneylab/sveltekit-blog-mdx>
