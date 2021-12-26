@@ -18,31 +18,27 @@
 		{ title: '16', src: 'Autos/Gallery/16.jpg' },
 		{ title: '17', src: 'Autos/Gallery/17.jpg' }
 	];
-
-	/**
-	 * Generates the link for the next picture.
-	 * @param {number} id - Index of the picture in array images.
-	 */
-	function next(id) {
-		let val = parseInt(id);
-		if (val >= images.length) val = images.length;
-		console.log(`Next (${id}):${val}`);
-		return parseInt(val + 1);
-	}
-
-	/**
-	 * Generates the link for the previous picture.
-	 * @param {number} id - Index of the picture in array images.
-	 */
-	function previous(id) {
-		let val = parseInt(id);
-		if (val < 0) val = images.length;
-		//console.log(`Previous ${id}:${val}`);
-		return val;
-	}
 </script>
 
-<div class="max-w-fit carousel">
+<section aria-label="Fotogallery">
+	<div class="carousel">
+		<button class="carousel-button previous">&#8592;</button>
+		<button class="carousel-button next">&#8594;</button>
+		<ul>
+			<li class="slide">
+				<img src={images[0].src} alt="0" />
+			</li>
+			<li class="slide">
+				<img src={images[1].src} alt="0" />
+			</li>
+			<li class="slide">
+				<img src={images[2].src} alt="0" />
+			</li>
+		</ul>
+	</div>
+</section>
+
+<!-- <div class="max-w-fit carousel">
 	{#each images as { title, src }, index}
 		<div id="slide{index}" class="relative w-full pt-3 carousel-item">
 			<img {src} alt={title} class="mx-5 object-fill aspect-w-16 aspect-h-9" />
@@ -55,3 +51,4 @@
 		</div>
 	{/each}
 </div>
+ -->
