@@ -21,11 +21,11 @@
 </script>
 
 <section aria-label="Fotogallery">
-	<div class="carousel">
+	<div class="carousel ">
 		<button class="carousel-button previous">&#8592;</button>
 		<button class="carousel-button next">&#8594;</button>
 		<ul>
-			<li class="slide">
+			<li class="slide data-active">
 				<img src={images[0].src} alt="0" />
 			</li>
 			<li class="slide">
@@ -52,3 +52,48 @@
 	{/each}
 </div>
  -->
+<style>
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	body {
+		margin: 0;
+	}
+
+	.carousel {
+		width: 100vh;
+		height: 100vh;
+		position: relative;
+	}
+
+	.slide {
+		position: absolute;
+		inset: 0;
+		opacity: 0;
+	}
+
+	.slide > img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.slide[data-active] {
+		opacity: 1;
+	}
+
+	.carousel-button {
+		position: absolute;
+		background: none;
+		border: none;
+		font-size: 4rem;
+		top: 50%;
+		z-index: 2;
+		transform: translateY(-50%);
+	}
+</style>
