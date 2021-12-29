@@ -4,37 +4,16 @@
 </script>
 
 <!-- Image Row -->
-<div class="demo-img-row">
+<div class="flex flex-wrap justify-center">
 	{#each images as { id, imgurl, name }}
-		<div class="demo-cont">
-			<img {id} src={imgurl} alt={name} on:click />
+		<div class="flex justify-center items-center w-1/4">
+			<img
+				class="w-1/2 border-solid border-black cursor-pointer m-1"
+				{id}
+				src={imgurl}
+				alt={name}
+				on:click
+			/>
 		</div>
 	{/each}
 </div>
-
-<style>
-	.demo-img-row {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	.demo-cont {
-		width: 25%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	img {
-		width: 50%;
-		margin: 10px;
-		border: 0.5vw solid white;
-		transition: 0.2s;
-		cursor: pointer;
-	}
-
-	img:hover {
-		box-shadow: 0 0 13px rgba(0, 0, 0, 0.8);
-	}
-</style>
