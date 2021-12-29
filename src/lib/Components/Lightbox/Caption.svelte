@@ -55,7 +55,7 @@
 
 	.prev:active,
 	.next:active {
-		color: hsla(125, 86%, 64%, 1);
+		color: rgb(247, 188, 26);
 		text-decoration: none;
 	}
 </style>

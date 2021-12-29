@@ -29,7 +29,7 @@
 	const goToSlide = (slideID) => (imageShowingIndex = Number(slideID));
 </script>
 
-<section class="lightbox" in:fly={{ x: -300 }} out:fade>
+<section class="lightbox bg-yellow-500" in:fly={{ x: -300 }} out:fade>
 	<span class="close cursor" on:click>&#10007;</span>
 
 	<main>
@@ -82,7 +82,6 @@
 		width: 100%;
 		height: 100%;
 		overflow: auto;
-		background-color: #000;
 		display: flex;
 		justify-content: center;
 		align-items: center;
