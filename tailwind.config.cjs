@@ -4,7 +4,11 @@ const config = {
 	theme: {
 		extend: {}
 	},
-	plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')]
+	plugins: [
+		require('@tailwindcss/typography'),
+		require('@tailwindcss/forms'),
+		require('tailwindcss-textshadow')
+	]
 };
 
 module.exports = config;

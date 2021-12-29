@@ -6,7 +6,14 @@
 </script>
 
 <div class="flex justify-center items-center w-2/12 bg-white">
-	<img class="sample cursor-pointer w-full h-full opacity-40 hover:opacity-100" class:active={selected} {id} src={thumbImg} alt={altTag} on:click />
+	<img
+		class="sample cursor-pointer w-full h-full opacity-40 hover:opacity-100"
+		class:active={selected}
+		{id}
+		src={thumbImg}
+		alt={altTag}
+		on:click
+	/>
 </div>
 
 <style>
