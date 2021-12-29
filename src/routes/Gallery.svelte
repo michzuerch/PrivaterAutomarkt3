@@ -21,17 +21,11 @@
 {/if}
 
 <!-- Button to open Lightbox -->
-<section>
+<section class="w-full text-center mt-4">
 	<button on:click={() => (modalOpen = true)}> Autogallerie </button>
 </section>
 
 <style>
-	section {
-		width: 100%;
-		text-align: center;
-		margin-top: 5%;
-	}
-
 	button {
 		background-color: #000;
 		color: white;
