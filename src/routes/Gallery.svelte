@@ -22,7 +22,7 @@
 
 <!-- Button to open Lightbox -->
 <section>
-	<button on:click={() => (modalOpen = true)}> Lightbox </button>
+	<button on:click={() => (modalOpen = true)}> Autogallerie </button>
 </section>
 
 <style>

@@ -7,7 +7,7 @@
 <footer class="text-gray-900 body-font bg-yellow-500">
 	<div class="container px-5 py-3 mx-auto">
 		<div class="flex flex-wrap md:text-left text-center justify-center ">
-			<div class="lg:w-1/2 md:w-1/2 w-full px-4">
+			<div class="md:w-1/2 w-full px-4">
 				<div class="">
 					<div>
 						<h2
@@ -32,9 +32,7 @@
 			</div>
 			<div class="lg:w-1/2 md:w-1/2 w-full px-4">
 				<div class="">
-					<span class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3"
-						>Kontakt</span
-					>
+					<h2 class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">Kontakt</h2>
 					<p class="flex items-center justify-center md:justify-start">
 						<svg
 							aria-hidden="true"
