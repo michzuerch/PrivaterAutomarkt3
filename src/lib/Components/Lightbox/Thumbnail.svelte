@@ -7,7 +7,7 @@
 
 <div class="flex justify-center items-center w-2/12 bg-white">
 	<img
-		class="sample cursor-pointer w-full h-full opacity-40 hover:opacity-100"
+		class="sample cursor-pointer w-full h-full opacity-80 hover:opacity-100"
 		class:active={selected}
 		{id}
 		src={thumbImg}

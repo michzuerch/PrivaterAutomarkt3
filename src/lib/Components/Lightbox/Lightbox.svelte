@@ -29,12 +29,19 @@
 	const goToSlide = (slideID) => (imageShowingIndex = Number(slideID));
 </script>
 
-<section class="lightbox" in:fly={{ x: -300 }} out:fade>
-	<span class="close cursor" on:click>&#10007;</span>
+<section
+	class="fixed z-10 left-0 top-0 w-full h-full overflow-auto bg-black flex justify-center items-center"
+	in:fly={{ x: -300 }}
+	out:fade
+>
+	<span
+		class="text-white absolute top-2 right-2 font-extralight text-2xl hover:cursor-pointer hover:text-gray-400 hover:no-underline"
+		on:click>&#10007;</span
+	>
 
-	<main>
+	<main class="w-10/12 flex flex-col bg-black">
 		<!-- image gallery -->
-		<div class="container">
+		<div class="relative">
 			<Slide
 				image={image.imgurl}
 				altTag={image.name}
@@ -52,7 +59,7 @@
 		/>
 
 		<!-- Thumbnail images -->
-		<div class="thumbnails-row">
+		<div class="w-full flex self-end">
 			{#each images as { id, imgurl, name }}
 				<Thumbnail
 					thumbImg={imgurl}
@@ -72,54 +79,5 @@
 	* {
 		box-sizing: border-box;
 		font-family: 'Josefin Sans', sans-serif;
-	}
-
-	.lightbox {
-		position: fixed;
-		z-index: 1;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		overflow: auto;
-		background-color: #000;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	main {
-		width: 50vw;
-		display: flex;
-		flex-direction: column;
-		background-color: #000;
-	}
-
-	/* Position the image container (needed to position the left and right arrows) */
-	.container {
-		position: relative;
-	}
-
-	.thumbnails-row {
-		width: 100%;
-		display: flex;
-		align-self: flex-end;
-	}
-
-	/* The Close Button */
-	.close {
-		color: #ddd;
-		position: absolute;
-		top: 3%;
-		right: 3%;
-		font-size: 1.5rem;
-		font-weight: 200;
-	}
-
-	.close:hover,
-	.close:focus {
-		color: #999;
-		text-decoration: none;
-		cursor: pointer;
 	}
 </style>
