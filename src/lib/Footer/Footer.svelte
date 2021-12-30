@@ -8,7 +8,9 @@
 	<div class="container px-5 py-3 mx-auto">
 		<div class="flex flex-wrap md:text-left text-center justify-center ">
 			<div class="md:w-1/2 w-full px-4">
-				<div class="title-font font-medium tracking-widest text-lg mb-3 text-center">Öffnungszeiten</div>
+				<div class="title-font font-medium tracking-widest text-lg mb-3 text-center">
+					Öffnungszeiten
+				</div>
 				<div class="flex items-center justify-center">
 					<table class="table-auto">
 						<tr>
