@@ -14,7 +14,7 @@
 			<span class="hidden md:block text-xl font-extrabold">Radolfzell</span>
 		</a>
 		<nav class="md:ml-auto flex flex-wrap items-center text-base justify-center mb-4 md:mb-0">
-			<a href="Gallery" class="mr-5 hover:text-gray-900">Gallerie</a>
+			<a href="Gallery" class="mr-5 hover:text-gray-900">Galerie</a>
 			<a href="Location" class="mr-5 hover:text-gray-900">Standort</a>
 			<a href="Impressum" class="mr-5 hover:text-gray-900">Impressum</a>
 		</nav>
