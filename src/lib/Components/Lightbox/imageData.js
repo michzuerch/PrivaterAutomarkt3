@@ -2,7 +2,7 @@ export const images = [
 	{
 		id: 0,
 		name: 'Porsche',
-		imgurl: '/Autos/Gallery/1.jpg',
+		imgurl: '/Autos/Gallery/6.jpg',
 		attribution: 'Porsche'
 	},
 	{
@@ -32,7 +32,7 @@ export const images = [
  */ {
 		id: 4,
 		name: 'Porsche',
-		imgurl: '/Autos/Gallery/6.jpg',
+		imgurl: '/Autos/Gallery/1.jpg',
 		attribution: 'Porsche'
 	},
 	{
