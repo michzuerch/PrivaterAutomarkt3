@@ -8,13 +8,11 @@
 	<div class="container px-5 py-3 mx-auto">
 		<div class="flex flex-wrap md:text-left text-center justify-center ">
 			<div class="md:w-1/2 w-full px-4">
-				<div class="">
+				<div class="flex justify-center items-center">
 					<div>
-						<h2
-							class="title-font font-medium text-gray-900 tracking-widest text-lg text-center mb-3"
-						>
+						<div class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">
 							Öffnungszeiten
-						</h2>
+						</div>
 					</div>
 					<div class="flex items-center justify-center">
 						<table class="table-auto">
@@ -30,9 +28,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="lg:w-1/2 md:w-1/2 w-full px-4">
+			<div class="md:w-1/2 w-full px-4">
 				<div class="">
-					<h2 class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">Kontakt</h2>
+					<div class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">
+						Kontakt
+					</div>
 					<p class="flex items-center justify-center md:justify-start">
 						<svg
 							aria-hidden="true"

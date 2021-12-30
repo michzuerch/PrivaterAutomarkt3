@@ -23,80 +23,80 @@ export const images = [
 		imgurl: '/Autos/Gallery/4.jpg',
 		attribution: 'Ford'
 	},
-	{
+	/* 	{
 		id: 4,
 		name: 'Classic car',
 		imgurl: '/Autos/Gallery/5.jpg',
 		attribution: 'Classic car'
 	},
-	{
-		id: 5,
+ */ {
+		id: 4,
 		name: 'Porsche',
 		imgurl: '/Autos/Gallery/6.jpg',
 		attribution: 'Porsche'
 	},
 	{
-		id: 6,
+		id: 5,
 		name: 'Hyundai',
 		imgurl: '/Autos/Gallery/7.jpg',
 		attribution: 'Hyundai'
 	},
 	{
-		id: 7,
+		id: 6,
 		name: 'BMW Cabrio',
 		imgurl: '/Autos/Gallery/8.jpg',
 		attribution: 'BMW Cabrio'
 	},
 	{
-		id: 8,
+		id: 7,
 		name: 'Mercedes Cabrio',
 		imgurl: '/Autos/Gallery/9.jpg',
 		attribution: 'Mercedes Cabrio'
 	},
 	{
-		id: 9,
+		id: 8,
 		name: 'Renault',
 		imgurl: '/Autos/Gallery/10.jpg',
 		attribution: 'Renault'
 	},
 	{
-		id: 10,
+		id: 9,
 		name: 'Mercedes',
 		imgurl: '/Autos/Gallery/11.jpg',
 		attribution: 'Mercedes'
 	},
 	{
-		id: 11,
+		id: 10,
 		name: 'Ford',
 		imgurl: '/Autos/Gallery/12.jpg',
 		attribution: 'Ford'
 	},
 	{
-		id: 12,
+		id: 11,
 		name: 'Mercedes',
 		imgurl: '/Autos/Gallery/13.jpg',
 		attribution: 'Mercedes'
 	},
 	{
-		id: 13,
+		id: 12,
 		name: 'VW Cabrio',
 		imgurl: '/Autos/Gallery/14.jpg',
 		attribution: 'VW Cabrio'
 	},
 	{
-		id: 14,
+		id: 13,
 		name: 'Classic car',
 		imgurl: '/Autos/Gallery/15.jpg',
 		attribution: 'Classic car'
 	},
 	{
-		id: 15,
+		id: 14,
 		name: 'BMW',
 		imgurl: '/Autos/Gallery/16.jpg',
 		attribution: 'BMW'
 	},
 	{
-		id: 16,
+		id: 15,
 		name: 'Classic car',
 		imgurl: '/Autos/Gallery/17.jpg',
 		attribution: 'Classic car'

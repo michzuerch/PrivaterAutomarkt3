@@ -3,6 +3,18 @@
 	export let caption;
 
 	const dispatch = createEventDispatcher();
+
+	function onkeydown(e) {
+		//console.log(e.keyCode);
+		switch (e.keyCode) {
+			case 39:
+				dispatch('nextClick');
+				break;
+			case 37:
+				dispatch('prevClick');
+				break;
+		}
+	}
 </script>
 
 <div class="flex justify-between items-center text-center bg-black text-xl px-2 py-4 text-white">
@@ -21,3 +33,4 @@
 		on:click={() => dispatch('nextClick')}>&#10095;</a
 	>
 </div>
+<svelte:window on:keydown={onkeydown} />
