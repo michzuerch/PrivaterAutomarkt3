@@ -1,14 +1,20 @@
+<script>
+	import { fly } from 'svelte/transition';
+	import Typewriter from 'svelte-typewriter';
+</script>
+
 <section class="text-gray-900 body-font">
 	<div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
 		<div
-			class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+			class="h-full lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
 		>
-			<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">
-				Wir kaufen auch Ihr Auto.
-				<!-- 				<br class="hidden lg:inline-block" />readymade gluten
- -->
-			</h1>
+			<Typewriter>
+				<h1 class="title-font sm:text-4xl text-3xl mb-4 font-extrabold">
+					Wir kaufen auch Ihr Auto
+				</h1>
 			<p class="mb-8 text-2xl font-medium leading-relaxed">Privat an Privat = Günstig</p>
+			</Typewriter>
+
 			<div class="flex justify-center">
 				<a href="https://home.mobile.de/PRIVATERAUTOMARKTRADOLFZELL#ses" target="_blank">
 					<button

@@ -26,7 +26,7 @@
 			</div>
 			<div class="md:w-1/2 w-full px-4 mt-10 md:mt-1">
 				<div class="title-font font-medium tracking-widest text-lg mb-3">Kontakt</div>
-				<p class="flex items-center justify-center md:justify-start">
+				<p class="flex  flex-shrink-0 items-center justify-center md:justify-start">
 					<svg
 						aria-hidden="true"
 						focusable="false"
