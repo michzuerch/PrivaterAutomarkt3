@@ -12,7 +12,7 @@
 				<h1 class="title-font sm:text-4xl text-3xl mb-4 font-extrabold">
 					Wir kaufen auch Ihr Auto
 				</h1>
-			<p class="mb-8 text-2xl font-medium leading-relaxed">Privat an Privat = Günstig</p>
+				<p class="mb-8 text-2xl font-medium leading-relaxed">Privat an Privat = Günstig</p>
 			</Typewriter>
 
 			<div class="flex justify-center">
