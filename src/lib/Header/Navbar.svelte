@@ -1,5 +1,6 @@
 <script lang="ts">
 	import logo from './Logo.svg';
+	import wave from './Wave.svg';
 </script>
 
 <header class="text-gray-800 body-font bg-yellow-500">
@@ -8,7 +9,7 @@
 			href="/"
 			class="flex title-font font-medium items-center text-base text-gray-900 mb-4 md:mb-0"
 		>
-			<img class="w-8" src={logo} alt="SvelteKit" />
+			<img class="w-8" src={logo} alt="Company logo" />
 
 			<span class="mx-3 text-xl font-extrabold">Privater Automarkt</span>
 			<span class="hidden md:block text-xl font-extrabold">Radolfzell</span>
@@ -20,3 +21,4 @@
 		</nav>
 	</div>
 </header>
+		<img src={wave} alt="Wave" />
