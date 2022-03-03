@@ -21,4 +21,4 @@
 		</nav>
 	</div>
 </header>
-		<img src={wave} alt="Wave" />
+<img src={wave} alt="Wave" />
