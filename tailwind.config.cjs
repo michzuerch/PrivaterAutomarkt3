@@ -4,7 +4,7 @@ const config = {
 		'./src/**/*.{html,js,svelte,ts}',
 		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
 	],
-	darkMode: 'media',
+	darkMode: 'class',
 	theme: {
 		extend: {}
 	},

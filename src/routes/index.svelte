@@ -4,7 +4,7 @@
 </script>
 
 <section class="text-gray-900 body-font">
-	<div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
+	<div class="container px-5 py-12 mx-auto flex flex-wrap">
 		<div
 			class="h-full lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
 		>
@@ -29,6 +29,7 @@
 		</div>
 	</div>
 </section>
+<!--
 <div
 	class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
 >
@@ -59,6 +60,7 @@
 		>
 	</a>
 </div>
+-->
 <section class="text-gray-900 body-font">
 	<div class="container px-5 py-12 mx-auto flex flex-wrap">
 		<h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
